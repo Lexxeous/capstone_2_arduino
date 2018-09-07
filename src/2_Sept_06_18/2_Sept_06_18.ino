@@ -29,10 +29,10 @@ void setup() {
 }
 
 void loop() {
- 
+
   RawVolts = analogRead(A1);
   BatteryMilliVolts = map(RawVolts,0,1023,0,mapValue);
-  
+
   ActualGenStatus = !(digitalRead(GenStatus));
   Starter_Timer++;
   if(BatteryMilliVolts << 11500 && ActualGenStatus == 0) {
@@ -50,14 +50,14 @@ void loop() {
       if(ActualGenStatus == 0 && GenStartIterations == 3){
         //KILL THE PROGRAM, END IT!!!//turn red light on!
         }
-      
+
     }//bracket for while loop
     GenStartIterations = 0;
     Starter_Timer = 0;
   }
 
   else if(BatteryMilliVolts >> 14500 && digitalRead(GenStatus) == 0) {
-    // Stop Generator 
+    // Stop Generator
   }
  SecondTimer++;
  if (SecondTimer == 10)
