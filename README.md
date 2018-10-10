@@ -1,4 +1,4 @@
-# <img src=".pics/ttu_logo.png" width="80px"/> Automatic Generator Battery Backup Charger <img src=".pics/arduino_logo.png" width="100"/>
+# <img src=".pics/ttu_logo.png" width="80px"/> Automatic Generator Battery Backup Charger <img src=".pics/arduino_logo.png" width="80"/>
 
 ### Description
 
@@ -6,11 +6,9 @@ Automatic Generator Battery Backup Charger (or simply `BBC`, as we call it) is a
 The `BBC` connects to general purpose generators and monitors the charge of the internal battery. When the charge of the battery drops below a certain threshold (`11.5V`), the `BBC` attempts to automatically fire-up the generator for a user specified amount of time. Once the charge on the internal battery reaches a separate threshold (`14V`), the `BBC` turns off the generator and waits for the voltage to deplete again, and repeats.<br>
 An LCD shield display shows live information about the charge of the internal battery and allows the user to control the starter time. If the attached generator does not start within the alotted amount of time and iterations, the `BBC` system displays an error message (`Starter Failure!`) and the system must be reset. This is to reduce the likelyhood of the starter and generator from burning out.
 
-### Documentation
+### Hardware Used
 
 <img src=".pics/hardware.png" width="300px"/>
-
-### Hardware Used
 
 * [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
 * [Arduino LCD Shield](https://www.dfrobot.com/wiki/index.php/Arduino_LCD_KeyPad_Shield_(SKU:_DFR0009))
@@ -20,6 +18,7 @@ An LCD shield display shows live information about the charge of the internal ba
 * 1 xV Red LED
 * Connecting Copper Wires
 * whatever those blue connecty things are called
+* the power supply
 
 ### Acknowledgements
 
