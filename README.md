@@ -20,7 +20,7 @@ The `BBC` system also has a feature that turns off the LCD display after 10 or m
 
 | Hardware Implementation                        | Prototype vs. Optimized Consumer Cost <sup>1, 2, 3|
 |:----------------------------------------------:|:-------------------------------------------------:|
-|  <img src=".pics/hardware.png" width="400px"/> |  <img src=".pics/cost_table.png" width="400px"/>  |
+|  <img src=".pics/bbc_hardware.png" width="400px"/> |  <img src=".pics/cost_table.png" width="400px"/>  |
 
 
 ### Software Used
@@ -55,6 +55,7 @@ The `BBC` system also has a feature that turns off the LCD display after 10 or m
 	2. Actual prototype total cost was free of charge. All hardware components were readily available and provided by Tennessee Technological University ( TTU ) , the Electrical & Computer Engineering ( ECE ) department, and Dr. Michael A. Baswell.
 	<br>
 	3. Optimized consumer total cost was calculated based on the assumption that all hardware could be bought at wholesale price and that no testing components needed to be purchased or used. Wholesale quantity is upwards of 1000+ units for some components.
+<sup>
 
 
 ### Acknowledgment
